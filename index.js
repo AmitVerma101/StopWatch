@@ -89,6 +89,9 @@ function refreshTimer(){
     let element=document.createElement("div");
     element.style.display="flex";
     element.style.width="80%"
+    element.style.borderBottom="1px solid white";
+    element.style.fontSize="20px";
+    element.style.padding="5px"
     element.style.justifyContent="space-between";
     element.innerHTML=`<div>Lap ${i}</div>
     <div>${label.innerText}</div>`
